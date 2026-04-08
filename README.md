@@ -35,11 +35,6 @@ What matters most is moving from passive ingestion of random operator work to ac
 - `Univ-Onto-Guard-SR.py` – Main guardrail implementation  
 - Supporting appendices and logs  
 
-### Disclaimer
-
-All artifacts are fixed reference implementations provided strictly for **academic research and responsible AI governance experimentation**.  
-The materials are provided “AS IS”, without any warranties. Use is entirely at your own risk.
-
 ### License
 
 - Code (`Univ-Onto-Guard-SR.py` and related scripts): **MIT License**  
@@ -54,11 +49,7 @@ Important Disclaimers, Waivers and Disclosures
 This document provides key legal and technical disclosures for Univ-Onto-Guard-SR and its associated performance metrics.
 1. Nature of the Data
 All performance metrics, token reduction percentages, and cost savings figures are derived from controlled internal testing (14 sanitized runs) and hypothetical simulations. They do not represent real-world production results. The testing environment did not apply standard production features such as prompt caching. In actual deployment, the guardrail is designed for selective invocation on complex or high-risk prompts.
-2. Technical Considerations
-The guardrail is lightweight by design but incurs a small computational cost for ontological auditing. For optimal performance, cached or repeated prompts should bypass the guardrail, and operators must carefully tune parameters such as block_threshold and strict_mode to balance safety against false positives.
-3. Intended Use
-This software and analysis are provided strictly for academic research, defensive safety engineering, and responsible AI governance experimentation. It is not a production-ready system, nor does it constitute financial forecasting, investment advice, or guaranteed safety mechanisms. Commercial use is prohibited without prior written permission.
-4. Legal Waiver and Liability
+2. Legal Waiver and Liability
 The materials are provided “AS IS”, without any warranties, express or implied, including fitness for a particular purpose. The author makes no representations regarding accuracy, reliability, or suitability for any purpose. 
 By using this code or any derived estimates, you expressly waive all claims against the author(s). All use is at your own risk and sole responsibility. The author disclaims all liability for any damages or losses arising from its use. Users are solely responsible for testing, validation, and ensuring compliance with all applicable laws and ethical standards before deployment.
 By reviewing or using this work, you acknowledge and accept the above limitations and disclaimers.
