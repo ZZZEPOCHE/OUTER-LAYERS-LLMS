@@ -1,4 +1,34 @@
 # Outer Governance Layers for Frontier LLMs
+
+**Important Notice & Disclaimer**
+
+This tool is intended strictly for research and personal use only.
+
+It is NOT a substitute for professional engineering, financial, medical, psychological, educational, forensic, or legal advice. Users must exercise their own judgment and seek appropriate professional guidance when necessary.
+
+**No Warranty**
+The tool is provided on an "AS IS" and "AS AVAILABLE" basis. The author makes no representations or warranties of any kind, express or implied, regarding the accuracy, reliability, completeness, or suitability of the tool or its outputs.
+
+The author expressly disclaims all liability for any direct, indirect, incidental, consequential, special, or other damages arising from the use or inability to use this tool, including but not limited to any harm, loss, or injury.
+
+EU/EEA Compliance This tool has not been assessed for compliance with the EU AI Act, GDPR, or any other applicable European regulations. Users in the European Union or European Economic Area assume all risks and responsibilities regarding regulatory compliance, data protection, and legal obligations. Use in these jurisdictions is entirely at the user's own risk.
+
+By using this tool, you acknowledge that you have read, understood, and accepted this disclaimer in full.
+
+**Legal Disclosure**
+
+This is an independent open-source project.
+No affiliation or compensation exists with any AI laboratory or commercial entity.
+
+This tool is released under the MIT License for research and personal use only.
+
+Static Release: This is a final frozen version. No further updates are planned.
+
+USA: Users are solely responsible for compliance with all applicable U.S. federal, state, and local laws.
+Rest of the World: Users bear full responsibility for compliance with all local laws and regulations.
+
+---
+
 **Minimal Invariant-Driven Scaffolding for Stochastic Outputs**
 
 Code Name: OUTER-LAYERS-LLMS  
@@ -40,16 +70,8 @@ What matters most is moving from passive ingestion of random operator work to ac
 - Code (`Univ-Onto-Guard-SR.py` and related scripts): **MIT License**  
 - ZZZ-EPOCHE-Meta-Command-Suite: **MIT License**  
 - Report text and diagrams: **CC-BY 4.0**
-
 © 2026 ZZZ_EPOCHE
 
 ---
 
-Important Disclaimers, Waivers and Disclosures
-This document provides key legal and technical disclosures for Univ-Onto-Guard-SR and its associated performance metrics.
-1. Nature of the Data
-All performance metrics, token reduction percentages, and cost savings figures are derived from controlled internal testing (14 sanitized runs) and hypothetical simulations. They do not represent real-world production results. The testing environment did not apply standard production features such as prompt caching. In actual deployment, the guardrail is designed for selective invocation on complex or high-risk prompts.
-2. Legal Waiver and Liability
-The materials are provided “AS IS”, without any warranties, express or implied, including fitness for a particular purpose. The author makes no representations regarding accuracy, reliability, or suitability for any purpose. 
-By using this code or any derived estimates, you expressly waive all claims against the author(s). All use is at your own risk and sole responsibility. The author disclaims all liability for any damages or losses arising from its use. Users are solely responsible for testing, validation, and ensuring compliance with all applicable laws and ethical standards before deployment.
-By reviewing or using this work, you acknowledge and accept the above limitations and disclaimers.
+
